@@ -1,5 +1,18 @@
+### Rider ###
+.idea/
+
 # Visual Studio 2015 user specific files
 .vs/
+.vsconfig
+
+
+# custom
+*/Build
+*/DerivedDataCache
+*/Intermediate
+*/Saved
+*.suo
+*.db
 
 # Compiled Object files
 *.slo
@@ -15,6 +28,7 @@
 *.so
 *.dylib
 *.dll
+*.pdb
 
 # Fortran module files
 *.mod
@@ -48,9 +62,17 @@ SourceArt/**/*.tga
 # Binary Files
 Binaries/*
 Plugins/*/Binaries/*
+Plugins/FMODStudio/
+Plugins/FMODStudio/Docs/*
 
 # Builds
 Build/*
+
+# Level
+Content/02_Graphics/Level/**/*.umap
+
+# Movie
+Content/movies/*.mp4
 
 # Whitelist PakBlacklist-<BuildConfiguration>.txt files
 !Build/*/
@@ -72,3 +94,18 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset
+
+Platforms/*
+Content/StarterContent/Architecture/Floor_400x400.uasset
+Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset
+
+# RiderLink
+
+Plugins/Developer/RiderLink/*
+
+
+!Source/ThirdParty/cpp_fsm/build/*/
+Source/ThirdParty/cpp_fsm/build/**/*
+!Source/ThirdParty/cpp_fsm/build/Release/cpp_fsm_static.lib
+!Source/ThirdParty/cpp_fsm/build/vendor/LuaJIT-2.1/src/Release/luajit.lib
