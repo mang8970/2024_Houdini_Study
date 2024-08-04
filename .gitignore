@@ -109,3 +109,6 @@ Plugins/Developer/RiderLink/*
 Source/ThirdParty/cpp_fsm/build/**/*
 !Source/ThirdParty/cpp_fsm/build/Release/cpp_fsm_static.lib
 !Source/ThirdParty/cpp_fsm/build/vendor/LuaJIT-2.1/src/Release/luajit.lib
+Content/01_Resources/Static_Meshes/SM_House_B/Textures/_UDIM_Textures/T_House_B_BaseColor.uasset
+Content/01_Resources/Static_Meshes/SM_House_B/Textures/_UDIM_Textures/T_House_B_Normal.uasset
+Content/01_Resources/Static_Meshes/SM_House_B/Textures/_UDIM_Textures/T_House_B_OcclusionRoughnessMetallic.uasset
