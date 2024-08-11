@@ -112,3 +112,4 @@ Source/ThirdParty/cpp_fsm/build/**/*
 Content/01_Resources/Static_Meshes/SM_House_B/Textures/_UDIM_Textures/T_House_B_BaseColor.uasset
 Content/01_Resources/Static_Meshes/SM_House_B/Textures/_UDIM_Textures/T_House_B_Normal.uasset
 Content/01_Resources/Static_Meshes/SM_House_B/Textures/_UDIM_Textures/T_House_B_OcclusionRoughnessMetallic.uasset
+Houdini_Study.uproject
